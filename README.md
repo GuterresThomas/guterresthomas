@@ -8,7 +8,7 @@
 
 # Olá👋
 
- Estou sempre em busca de aprendizado contínuo e acompanho de perto as tendências e tecnologias mais recentes no mundo do desenvolvimento frontend.
+ Estou sempre em busca de aprendizado contínuo e acompanho de perto as tendências e tecnologias mais recentes no mundo do desenvolvimento.
 
 ## Mais sobre mim
 
