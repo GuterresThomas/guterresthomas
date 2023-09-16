@@ -14,14 +14,39 @@
 
 <img align="right" width="300" src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" />
 
-```kotlin
-object **Thomas** {
- val name = "Thomas Guterres"
- val acknowledgements = "Web Developer"
+```rust
 
- val primarySkillset = "ALGUMAS HABILIDADES"
- val languages = listOf("Typescript", "Python", "JavaScript", "React")
 
+fn main () {
+    #[derive(Debug)]
+    struct Thomas {
+        name: String,
+        acknowledgements: String,
+        primary_skill: String,
+        languages: String,
+    }
+
+
+   impl Thomas {
+    
+    fn infos(name: String, acknowledgements: String, primary_skill: String, languages: String) -> Thomas {
+        Thomas {
+            name,
+            acknowledgements,
+            primary_skill,
+            languages,
+        }
+    } 
+   }
+
+   let info_about_me = Thomas::infos (
+     String::from("Thomas Mikael Guterres"),
+     String::from("dev fullstack"),
+     String::from("Typescript"),
+     String::from("Typescript, Rust, JavaScript, React, Ruby on rails"),
+   );
+
+    println!("{:?}", info_about_me);
 }
 ```
 
