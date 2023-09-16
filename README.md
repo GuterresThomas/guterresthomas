@@ -21,7 +21,7 @@ fn main () {
     #[derive(Debug)]
     struct Thomas {
         name: String,
-        acknowledgements: String,
+        stack: String,
         primary_skill: String,
         languages: String,
     }
@@ -29,10 +29,10 @@ fn main () {
 
    impl Thomas {
     
-    fn infos(name: String, acknowledgements: String, primary_skill: String, languages: String) -> Thomas {
+    fn infos(name: String, stack: String, primary_skill: String, languages: String) -> Thomas {
         Thomas {
             name,
-            acknowledgements,
+            stack,
             primary_skill,
             languages,
         }
